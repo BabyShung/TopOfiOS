@@ -43,6 +43,7 @@
 		B8E40D3E1A1D02E200EC8730 /* MovingBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovingBehavior.m; sourceTree = "<group>"; };
 		B8E40D411A1D031200EC8730 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B8E40D421A1D031200EC8730 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E64ABCF71A1D0EF200AC12CA /* TopOfiOS-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TopOfiOS-prefix.pch"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +101,7 @@
 		B8E40D171A1D029B00EC8730 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E64ABCF71A1D0EF200AC12CA /* TopOfiOS-prefix.pch */,
 				B8E40D181A1D029B00EC8730 /* Info.plist */,
 				B8E40D191A1D029B00EC8730 /* main.m */,
 			);
@@ -359,6 +361,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TopOfiOS-prefix.pch";
 				INFOPLIST_FILE = TopOfiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -369,6 +373,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TopOfiOS-prefix.pch";
 				INFOPLIST_FILE = TopOfiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,6 +434,7 @@
 				B8E40D391A1D029C00EC8730 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8E40D3A1A1D029C00EC8730 /* Build configuration list for PBXNativeTarget "TopOfiOSTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +443,7 @@
 				B8E40D3C1A1D029C00EC8730 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

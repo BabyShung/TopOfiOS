@@ -27,9 +27,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
-
-    
     //setup UI
     _clickMeBtn.backgroundColor = [UIColor grayColor];
     _clickMeBtn.center = CGPointMake(SCREENWIDTH/2, SCREENHEIGHT/2);
